@@ -1,0 +1,72 @@
+@font-face {
+    font-family: nicefonte;
+    src: url("../fonts/font.ttf");
+}
+
+
+
+body,html{
+    font-family: nicefonte;
+    text-align: center;   
+    
+    background-color:black;
+    color: white;
+    width:100%;
+    
+    margin: 0;
+}
+
+textarea{
+    font-family: nicefonte;
+    background-color:black;
+    color: white;
+    size:34px;
+
+    transition: all 0.5s;
+}
+
+textarea:hover{
+    -moz-box-shadow: 0 0 4em #ffffff;
+    -webkit-box-shadow: 0 0 4em #ffffff ;
+    box-shadow: 0 0 4em #ffffff ;
+}
+h1{
+    
+    width:100%;
+    transition: all 1s;
+   
+}
+
+input{
+    font-family: nicefonte;
+    
+    color: white;
+    
+    background-color:transparent;
+    border: none;
+    border-radius: 10px;
+   
+    transition: all  0.5s  , background-color 0.08s;
+}
+
+input:active{
+    background-color:white;
+}
+input:hover{
+    -moz-box-shadow: 0 0 1em #ffffff;
+    -webkit-box-shadow: 0 0 1em #ffffff ;
+    box-shadow: 0 0 1em #ffffff ;
+}
+
+textarea::-webkit-input-placeholder {
+    color: rgb(255, 255, 255) !important;
+}
+textarea:-moz-placeholder { 
+    color: rgb(255, 255, 255) !important;  
+}
+textarea::-moz-placeholder { 
+    color: rgb(255, 255, 255) !important;  
+}
+textarea:-ms-input-placeholder {  
+    color: rgb(255, 255, 255) !important;  
+}

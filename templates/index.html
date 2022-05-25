@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{name}}</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+    <script defer type="text/javascript" src="../static/js/main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+    <h1>Witaj na {{name}}</h1>
+
+    <div class="inputys">
+        <textarea id="commit" name="Commit" rows="40" cols="200" placeholder="{{desc}}"></textarea>
+    </div>
+    <form onsubmit="return false">
+        <input type="submit" onclick="pdref('{{desc}}','{{rand}}')" value="submit ur opinion">
+    </form>
+    
+
+    
+</body>
+</html>
