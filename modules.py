@@ -13,10 +13,12 @@ CREDS = "creds.json"
 
 #get credentials form CREDS json file
 def GET_CREDS():
-    with open(CREDS, 'r') as openfile:
-        data = json.load(openfile)
-    return data
-
+    try:
+        with open(CREDS, 'r') as openfile:
+            data = json.load(openfile)
+        return data
+    except:
+        return False
 
 
 
