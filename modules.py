@@ -9,6 +9,7 @@ BLACKLIST = "blacklist.json"
 CREDS = "creds.json"
 
 
+
 #comes de Wątory, gdzie jeden kmieć a trzy dwory
 
 #get credentials form CREDS json file
@@ -156,7 +157,9 @@ def SEND(debug = False,noremove = False,nosend=False):
 
         W = 1080
         H = 608
-
+        
+        #If someone reads this im sorry
+        
         Slice = SPLITTER
         o = [0] * Slice
         for i in range(Slice):
